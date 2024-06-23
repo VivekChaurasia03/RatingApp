@@ -1,0 +1,13 @@
+# Giving the hostname which as per our application is localhost.
+# Under the client we are setting the config so that this service registry doesn't register itself as a client.
+
+
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+server:
+  port: 8761
