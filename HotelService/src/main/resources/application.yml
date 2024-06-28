@@ -5,6 +5,9 @@ spring:
   application:
     name: HOTEL-SERVICE
 
+  config:
+    import: configserver:http://localhost:8085
+
   datasource:
     url: jdbc:postgresql://localhost:5432/hotelservice
     username: postgres
@@ -15,11 +18,11 @@ spring:
       ddl-auto: update
     show-sql: true
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
