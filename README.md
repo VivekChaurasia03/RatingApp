@@ -46,3 +46,9 @@ The application manages users, hotels, and ratings. Users can rate hotels, and t
 ## Conclusion
 
 The Rating Application showcases the implementation of a microservices architecture with Java, emphasizing secure authentication, efficient data handling, and seamless inter-service communication. This project serves as an example of building scalable and maintainable applications using modern technologies and best practices.
+
+## Snapshots for better understanding
+
+### Application Overview
+
+![Application Overview](./APPLICATION_OVERVIEW.png)
